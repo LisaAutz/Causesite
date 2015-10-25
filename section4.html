@@ -3,6 +3,8 @@
 	<head>
 		<title>Questionaire</title>
 		<link rel="stylesheet" type="text/css" href="css/styles4.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
 	</head>
 
 	<body>
@@ -21,15 +23,75 @@
 	</nav>
 	<div class="Questionaire">
 	<h2>Questionaire</h2>
-		Conflict summary
-o   who (or what):
-§  family; coworker; friend; celebrity; other
-o   trigger:
-§  ideology; politics; domestic habits; sexual relations; money; entertainment; aesthetics; other.
-o   level of incomprehension:
-§  Intolerable, wildly aggravating, mildly irritating, calm bafflement
-·   	Assess client’s T.o.M.
-o   10 questions
+	<form action="thankyou.html" method="POST">
+		<input type="text" id="FirstName" name="FirstName" placeholder="ENTER FIRST NAME" />
+		<br>
+		<input type="text" id="LastName" name="LastName" placeholder="ENTER LAST NAME" />
+		<br>
+	<div>
+<h1>Assessing T.o.M.</h1>
+		<h2>Who</h2>
+		Family<input type="checkbox" id="check1" name="WHO" value="Family" class="Family"/>
+		<br>
+		Coworker<input type="checkbox" id="check2" name="WHO" value="Family"/>
+		<br>
+		Friend<input type="checkbox" id="check3" name="WHO" value="Friend"/>
+		<br>
+		Celebrity<input type="checkbox" id="check4" name="WHO" value="Celebrity"/>
+		<br>
+		Other<input type="checkbox" id="check5" name="WHO" value="Other"/>
+		<br>
+	<h2>Triggers</h2>
+		Ideology<input type="checkbox" id="check6" name="TRIGGERS" value="Ideology"/>
+		<br>
+		Politics<input type="checkbox" id="check7" name="TRIGGERS" value="Politics"/>
+		<br>
+		Domestic Habits<input type="checkbox" id="check8" name="TRIGGERS" value="Domestic Habits"/>
+		<br>
+		Sexual Relations<input type="checkbox" id="check9" name="TRIGGERS" value="Sexual Relations"/>
+		<br>
+		Money<input type="checkbox" id="check10" name="TRIGGERS" value="Money"/>
+		<br>
+		Entertainment Interests<input type="checkbox" id="check11" name="TRIGGERS" value="EntertainmentInterests"/>
+		<br>
+		Aesthetics/Style<input type="checkbox" id="check12" name="TRIGGERS" value="Aesthetics/Style"/>
+		<br>
+		Other<input type="checkbox" id="check13" name="TRIGGERS" value="Other"/>
+		<br>
+		<h2>Level of incomprehension</h2>
+		Intolerable<input type="checkbox" id="check14" name="LOI" value="Intolerable"/>
+		<br>
+		Wildly Aggrevating<input type="checkbox" id="check15" name="LOI" value="WAggrevating"/>
+		<br>
+		Irritating<input type="checkbox" id="check16" name="LOI" value="Irritating"/>
+		<br>
+		Mildly Irritating<input type="checkbox" id="check17" name="LOI" value="MIrritating"/>
+		<br>
+		Calm Bafflement<input type="checkbox" id="check18" name="LOI" value="CBafflement"/>
+		<br>
+		Other<input type="checkbox" id="check19" name="LOI" value="Other"/>
+		<br>
+
+	</div>
+		Male<input type="radio" name="gender" value="M" />
+		Female<input type="radio" name="gender" value="F"/>
+		<br>
+		<select id"states">
+		<option value="null">---pick one ---</option>
+		<option value="VA">Virginia</option>
+		<option value="NY">New York</option>
+		</select>
+		<br>
+		<textarea id="message" placeholder="Comments"></textarea>
+		<br>
+		<br>
+		<textarea id="email" placeholder="Email"></textarea>
+		<br>
+		<input type="reset" value="Reset">
+		<br>
+		<input type="submit" value="Submit"/>
+		<input type="button" id="mySubmitButton" value="Submit2"/>
+	</form>
 	</div>
 
 	</body>
