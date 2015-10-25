@@ -2,7 +2,15 @@
 body {
 	padding: 0px;
 	margin: 0px;
+	background-image: url('../img/background.jpg');
 	background-color: #002564b;
+    background-color:#000000;
+    background-position:center top;
+	background-attachment:fixed;
+	text-align: left;
+	font-family: Helvetica, Arial,  sans-serif;
+	font-size: 13px;
+	color: #F1F5F8;
 
 }
 .banner{
@@ -11,11 +19,17 @@ body {
     text-align: center;
     border-spacing: 10px;
     margin: 10px;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#E9EEF3;
+	background-color:#000000;
+	padding:3px;
+}
 
 }
 
 nav ul{
-	border: 1px solid black;
 	list-style: none;
 	border: 1px solid black;
 	height: 50px;
@@ -31,28 +45,56 @@ nav ul{
 }
 
 nav ul li{
-	border: 1px solid black;
 	float: left;
 	text-align: center;
 	padding: 10px;
 	width: 250px;
+	font-family: monospace;
 }
 
+nav ul li:hover{
+	color:#000000;
+}
+
+
 .about{
-	border: 1px solid black;
 	text-align: center;
 	padding: 100px;
 	height: 200px;
+	font-family: monospace;
 
 }
 
 .profiles{
-	border: 1px solid black;
+	font-family: monospace;
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#A{
+	float: left;
+	width: 33%;
+	padding: 80px;
+	display: block;
+	margin: 0 auto;
+}
+
+#L{
+	float: left;
+	width: 33%;
+	padding: 80px;
+	display: block;
+	margin: 0 auto;
 
 }
 
-.contact{
-	border: 1px solid black;
-
+footer{
+	font-family: monospace;
+	text-align:center;
+	width:inherit;
+	color:#E6E6E6;
+	font-size:11px;
+	clear: both;
+	background-color: black;
 }
-
