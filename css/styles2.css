@@ -29,7 +29,7 @@ body {
 
 }
 
-nav ul{
+ul li{
 	list-style: none;
 	height: 50px;
 	padding: 10px;
