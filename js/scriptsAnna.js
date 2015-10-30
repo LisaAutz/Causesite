@@ -3,7 +3,11 @@ $(document).ready(function(){
 
 $(".hotSpot").click(function(){
 // alert("test");
- document.location.href = "section2.html";
+
+$(this).addClass("glow");
+setTimeout(function(){document.location.href = "section2.html";},1000);
+
+ 
 
 
 })
