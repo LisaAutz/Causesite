@@ -66,11 +66,39 @@ h1{
 	font-size: 5.5em;
 	position: absolute;
   margin-top: 10%;
-	margin-left:18%;
+	margin-left:20%;
 	text-shadow: 8px 8px 6px rgba(0, 97, 124, 0.75);
-	font-family: "Arial Narrow", sans-serif;   
+	font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;   
 }
 
+.link{
+  border: 1px solid rgb(81, 176, 171);
+  position:relative;
+  width:300px;
+  height:300px;
+  margin: 0 auto;
+  top:45%;
+}
+
+img{
+  z-index:5;
+  position: absolute;
+  width: 300px;
+  
+
+}
+
+.hotSpot{
+  background-color: rgba(255,255,255,0.13);
+  width:150px;
+  height:150px;
+  position:absolute;
+  z-index: 6;
+  right:5px;
+  top:35px;
+  border-radius:75px;
+  cursor:pointer;
+}
 
 
 
