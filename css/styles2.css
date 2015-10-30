@@ -30,7 +30,7 @@ body {
 nav ul{
 	list-style: none;
 	height: 50px;
-	padding: 10px;
+	padding: 0px;
 	color: #2b2b2b;	
 	width: 100%;
     border-spacing: 0px;
@@ -45,10 +45,12 @@ nav ul{
 nav ul li{
 	float: left;
 	text-align: center;
-	padding: 10px;
-	width: 250px;
+	padding: 0px;
+	width: 300px;
 	font-family: monospace;
 	color: white;
+	position: relative;
+   	left: 70px;
 }
 
 a {
